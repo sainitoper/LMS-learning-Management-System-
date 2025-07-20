@@ -1,0 +1,40 @@
+lms-project/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── lms/
+│   │   │               ├── controller/
+│   │   │               │   ├── CourseController.java
+│   │   │               │   ├── StudentController.java
+│   │   │               │   └── InstructorController.java
+│   │   │
+│   │   │               ├── entity/
+│   │   │               │   ├── Course.java
+│   │   │               │   ├── Student.java
+│   │   │               │   ├── Instructor.java
+│   │   │               │   ├── Lesson.java
+│   │   │               │   └── Enrollment.java
+│   │   │
+│   │   │               ├── repository/
+│   │   │               │   ├── CourseRepository.java
+│   │   │               │   ├── StudentRepository.java
+│   │   │               │   ├── InstructorRepository.java
+│   │   │               │   ├── LessonRepository.java
+│   │   │               │   └── EnrollmentRepository.java
+│   │   │
+│   │   │               ├── service/
+│   │   │               │   ├── CourseService.java
+│   │   │               │   ├── StudentService.java
+│   │   │               │   ├── InstructorService.java
+│   │   │               │   └── EnrollmentService.java
+│   │   │
+│   │   │               └── LmsApplication.java
+│   │
+│   └── resources/
+│       ├── application.properties
+│       └── data.sql (optional – seed data)
+│
+├── pom.xml
+└── README.md
